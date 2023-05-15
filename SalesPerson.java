@@ -5,7 +5,7 @@ public class SalesPerson {
 
     public SalesPerson(String id) {
         this.id = id;
-        this.salesHistory = new Sales[100];
+        this.salesHistory = new Sales[100]; // Initialize array for sales history up to 100 sales
         this.count = 0;
     }
 
